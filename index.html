@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sachin Kumar — Full-Stack & AI/ML Engineer</title>
+<meta name="description" content="Sachin Kumar — Team Leader, Engineering at Rudra Research Work. Full-stack and AI/ML developer building production-grade platforms.">
+<meta name="theme-color" content="#05060f">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Loader -->
+<div id="loader">
+  <div class="loader-core">
+    <div class="loader-ring"></div>
+    <div class="loader-text">SK</div>
+  </div>
+  <div class="loader-bar"><span id="loader-fill"></span></div>
+  <p class="mono" id="loader-pct">Initializing 0%</p>
+</div>
+
+<canvas id="bg3d"></canvas>
+<div class="noise"></div>
+<div class="cursor" id="cursor"></div>
+<div class="cursor-dot" id="cursor-dot"></div>
+<div class="progress" id="progress"></div>
+
+<!-- Nav -->
+<header class="nav" id="nav">
+  <a href="#home" class="logo">SK<span>.</span></a>
+  <nav>
+    <ul id="menu">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#contact" class="btn-mini">Hire me</a></li>
+    </ul>
+  </nav>
+  <button class="burger" id="burger" aria-label="Menu"><i></i><i></i></button>
+</header>
+
+<main>
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow reveal"><span class="pulse"></span> Available for impactful engineering roles</p>
+    <h1 class="hero-title">
+      <span class="line"><span class="split">Hi, I'm</span></span>
+      <span class="line"><span class="split grad">Sachin Kumar</span></span>
+    </h1>
+    <p class="hero-role reveal">
+      <span id="typed"></span><span class="caret">|</span>
+    </p>
+    <p class="hero-sub reveal">
+      Team Leader of Engineering at <b>Rudra Research Work</b>. I architect and ship production-grade platforms,
+      lead engineering teams, and turn data &amp; AI into products that run live.
+    </p>
+    <div class="hero-cta reveal">
+      <a href="#projects" class="btn primary magnetic"><span>View my work</span><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <a href="#contact" class="btn ghost magnetic"><span>Let's talk</span></a>
+      <a href="https://github.com/Sachin82-ai/Portfolio" target="_blank" rel="noopener" class="btn ghost magnetic"><span>GitHub</span></a>
+    </div>
+    <div class="stats reveal">
+      <div><b data-count="1" data-suffix="+">0</b><small>Live production CRM</small></div>
+      <div><b data-count="2">0</b><small>Roles · Lead &amp; Analytics</small></div>
+      <div><b data-count="4">0</b><small>Languages · C, Py, Java, JS</small></div>
+      <div><b data-count="6" data-suffix="+">0</b><small>Modules shipped</small></div>
+    </div>
+  </div>
+  <div class="scroll-hint"><span></span>Scroll</div>
+</section>
+
+<!-- Marquee -->
+<div class="marquee"><div class="marquee-track">
+  <span>Full-Stack</span><span>AI / ML</span><span>Computer Vision</span><span>REST APIs</span><span>Data Analytics</span><span>Team Leadership</span><span>System Architecture</span><span>MongoDB</span><span>MySQL</span>
+  <span>Full-Stack</span><span>AI / ML</span><span>Computer Vision</span><span>REST APIs</span><span>Data Analytics</span><span>Team Leadership</span><span>System Architecture</span><span>MongoDB</span><span>MySQL</span>
+</div></div>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="wrap grid-2">
+    <div>
+      <p class="kicker mono reveal">// 01 — about</p>
+      <h2 class="reveal">Engineer who <em>leads</em>,<br>builds and ships.</h2>
+      <p class="lead reveal">Full-stack and AI/ML-focused developer, currently Team Leader of the Engineering Team at Rudra Research Work.</p>
+      <p class="reveal">I build industry-level platforms, lead engineering teams, and drive technical research across multiple domains. My foundation spans data analytics, software architecture and cross-functional project coordination — from UI/UX and deployment strategy to mentoring the people who build it.</p>
+      <div class="chips reveal">
+        <span>Agra, India</span><span>Python</span><span>Java</span><span>JavaScript</span><span>REST APIs</span><span>Leadership</span>
+      </div>
+    </div>
+    <div class="card3d reveal tilt">
+      <div class="terminal">
+        <div class="t-bar"><i></i><i></i><i></i><span class="mono">sachin.config.js</span></div>
+<pre class="mono"><span class="c">// profile</span>
+<span class="k">const</span> <span class="v">sachin</span> = {
+  role: <span class="s">"Team Leader, Engineering"</span>,
+  company: <span class="s">"Rudra Research Work"</span>,
+  stack: [<span class="s">"Python"</span>, <span class="s">"Java"</span>, <span class="s">"JS"</span>, <span class="s">"C"</span>],
+  focus: [<span class="s">"Full-Stack"</span>, <span class="s">"AI/ML"</span>, <span class="s">"Data"</span>],
+  db: [<span class="s">"MongoDB"</span>, <span class="s">"MySQL"</span>],
+  award: <span class="s">"Employee of the Month"</span>,
+  shipping: <span class="k">true</span>,
+  status: <span class="s">"Building in production"</span>
+};</pre>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section">
+  <div class="wrap">
+    <p class="kicker mono reveal">// 02 — experience</p>
+    <h2 class="reveal">Where I've <em>made impact</em></h2>
+    <div class="timeline">
+      <article class="t-item reveal">
+        <div class="t-dot"></div>
+        <div class="t-card tilt">
+          <div class="t-head"><div><h3>Team Leader, Engineering Team</h3><p class="org">Rudra Research Work (RRW)</p></div><span class="date mono">Oct 2025 — Present</span></div>
+          <ul>
+            <li>Lead and manage the engineering team — technical direction, task allocation and performance across multiple projects.</li>
+            <li>Developed and deployed an industry-level <b>CRM system</b> for operations, project management, employee tracking and client handling — <b>live in production</b>.</li>
+            <li>Participated in software architecture planning, UI/UX design and deployment strategy.</li>
+            <li>Drive project coordination, mentor team members and collaborate with cross-functional stakeholders for timely, high-quality delivery.</li>
+          </ul>
+          <div class="chips small"><span>Leadership</span><span>Architecture</span><span>CRM</span><span>Deployment</span></div>
+        </div>
+      </article>
+      <article class="t-item reveal">
+        <div class="t-dot"></div>
+        <div class="t-card tilt">
+          <div class="t-head"><div><h3>Data Analytics Intern</h3><p class="org">Muster Consultants Pvt. Ltd.</p></div><span class="date mono">Jun 2025 — Jul 2025</span></div>
+          <ul>
+            <li>Worked on data analytics and web development projects.</li>
+            <li>Developed the official company website and supported digital transformation initiatives.</li>
+            <li>Earned a <b>Recommendation Letter</b> for outstanding performance.</li>
+          </ul>
+          <div class="chips small"><span>Data Analytics</span><span>Web Dev</span><span>Digital Transformation</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <div class="wrap">
+    <p class="kicker mono reveal">// 03 — projects</p>
+    <h2 class="reveal">Selected <em>work</em></h2>
+    <div class="projects">
+      <article class="project featured reveal tilt">
+        <div class="p-visual crm">
+          <div class="mock">
+            <div class="m-side"><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="m-main">
+              <div class="m-kpis"><b></b><b></b><b></b></div>
+              <div class="m-chart"><svg viewBox="0 0 200 60" preserveAspectRatio="none"><path d="M0 50 L25 38 L50 44 L75 22 L100 30 L125 12 L150 20 L175 6 L200 14" /></svg></div>
+              <div class="m-rows"><u></u><u></u><u></u></div>
+            </div>
+          </div>
+          <span class="live"><i></i> LIVE IN PRODUCTION</span>
+        </div>
+        <div class="p-body">
+          <p class="mono tag">Rudra Research Work</p>
+          <h3>Enterprise CRM System</h3>
+          <p>Industry-level CRM platform for organizational operations and project management, deployed and running live.</p>
+          <ul class="mods"><li>Admin Panel</li><li>Employee Mgmt</li><li>Client Mgmt</li><li>Project Tracking</li><li>Attendance</li><li>Reporting</li></ul>
+          <p class="small">Role-based access control · Workflow automation · Production deployment</p>
+        </div>
+      </article>
+
+      <article class="project reveal tilt">
+        <div class="p-visual cv">
+          <div class="scan"></div>
+          <div class="box b1"><span>person 0.97</span></div>
+          <div class="box b2"><span>laptop 0.91</span></div>
+          <div class="box b3"><span>bottle 0.88</span></div>
+        </div>
+        <div class="p-body">
+          <p class="mono tag">Computer Vision · ML</p>
+          <h3>Real-Time Object Identifier</h3>
+          <p>Real-time object detection using computer vision and machine learning, with image-processing techniques to improve detection accuracy.</p>
+          <div class="chips small"><span>Python</span><span>CV</span><span>ML</span></div>
+        </div>
+      </article>
+
+      <article class="project reveal tilt">
+        <div class="p-visual web">
+          <div class="browser"><div class="b-bar"><i></i><i></i><i></i></div><div class="b-hero"></div><div class="b-cols"><u></u><u></u><u></u></div></div>
+        </div>
+        <div class="p-body">
+          <p class="mono tag">Muster Consultants Pvt. Ltd.</p>
+          <h3>Corporate Website</h3>
+          <p>Designed and developed the official company website, deployed to strengthen the organization's digital presence.</p>
+          <div class="chips small"><span>Web Dev</span><span>UI/UX</span><span>Deployed</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <div class="wrap grid-2 center">
+    <div>
+      <p class="kicker mono reveal">// 04 — skills</p>
+      <h2 class="reveal">Tools of <em>the trade</em></h2>
+      <p class="reveal">Drag the sphere — it's a live 3D tag cloud of my stack.</p>
+      <div class="skill-groups">
+        <div class="reveal"><h4 class="mono">Languages</h4><div class="bars">
+          <label>Python<i style="--w:90%"></i></label>
+          <label>JavaScript<i style="--w:88%"></i></label>
+          <label>Java<i style="--w:82%"></i></label>
+          <label>C<i style="--w:75%"></i></label>
+        </div></div>
+        <div class="reveal"><h4 class="mono">Technologies</h4><div class="chips small"><span>Full-Stack</span><span>AI/ML</span><span>Data Analytics</span><span>REST APIs</span></div></div>
+        <div class="reveal"><h4 class="mono">Databases</h4><div class="chips small"><span>MongoDB</span><span>MySQL</span></div></div>
+        <div class="reveal"><h4 class="mono">Platforms</h4><div class="chips small"><span>VS Code</span><span>Google Colab</span><span>MATLAB</span><span>SmartPLS</span><span>GitHub</span><span>OpenFOAM</span><span>Linux</span><span>Windows</span></div></div>
+      </div>
+    </div>
+    <div class="sphere-wrap reveal"><canvas id="sphere"></canvas></div>
+  </div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section id="achievements" class="section">
+  <div class="wrap">
+    <p class="kicker mono reveal">// 05 — recognition &amp; growth</p>
+    <h2 class="reveal">Achievements, <em>education</em> &amp; leadership</h2>
+    <div class="bento">
+      <div class="bento-card big reveal tilt">
+        <div class="trophy">🏆</div>
+        <h3>Employee of the Month &amp; Excellence Trophy</h3>
+        <p>Awarded at Rudra Research Work for outstanding performance and leadership — recognized for dedication, teamwork and consistent high-quality contributions while leading multiple technical and organizational initiatives.</p>
+      </div>
+      <div class="bento-card reveal tilt">
+        <h4 class="mono">Education</h4>
+        <ul class="edu">
+          <li><b>Diploma, Computer Science Engg.</b><span>GLA University · 7.69 CGPI</span></li>
+          <li><b>Intermediate</b><span>UP Board · 55.5%</span></li>
+          <li><b>High School</b><span>CBSE · 83.3%</span></li>
+        </ul>
+      </div>
+      <div class="bento-card reveal tilt">
+        <h4 class="mono">Certifications</h4>
+        <ul class="plain">
+          <li>Meta — Intro to Front-End Development</li>
+          <li>Cisco — Introduction to IoT</li>
+          <li>Cisco — Digital Transformation</li>
+          <li>NCC “C” Certificate</li>
+          <li>Recommendation Letter — Muster Consultants</li>
+        </ul>
+      </div>
+      <div class="bento-card wide reveal tilt">
+        <h4 class="mono">Leadership &amp; co-curricular</h4>
+        <ul class="plain two">
+          <li>NCC “C” Certificate — Army Attachment Camp with 23 PARA SF, Agra</li>
+          <li>Republic Day NCC Parade &amp; Training Camp, Iglas</li>
+          <li>Event Anchor — Annual Office Anniversary &amp; academic/professional events</li>
+          <li>CPU Assembling Event, GLA University</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section contact">
+  <div class="wrap">
+    <p class="kicker mono reveal">// 06 — contact</p>
+    <h2 class="big reveal">Let's build something <em>remarkable</em>.</h2>
+    <div class="contact-grid">
+      <div class="reveal">
+        <a class="c-link magnetic" href="mailto:singhsachin82736@gmail.com"><small class="mono">Email</small>singhsachin82736@gmail.com</a>
+        <a class="c-link magnetic" href="tel:+918273078556"><small class="mono">Phone</small>+91 82730 78556</a>
+        <a class="c-link magnetic" href="https://github.com/Sachin82-ai/Portfolio" target="_blank" rel="noopener"><small class="mono">GitHub</small>github.com/Sachin82-ai/Portfolio</a>
+        <div class="c-link"><small class="mono">Location</small>Agra, Uttar Pradesh, India</div>
+      </div>
+      <form class="form reveal" id="form">
+        <input name="name" placeholder="Your name" required>
+        <input name="email" type="email" placeholder="Your email" required>
+        <textarea name="msg" rows="4" placeholder="Tell me about your project…" required></textarea>
+        <button class="btn primary magnetic" type="submit"><span>Send message</span><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Sachin Kumar · Crafted with code, WebGL &amp; coffee.</p>
+  <a href="#home" class="mono">↑ Back to top</a>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
